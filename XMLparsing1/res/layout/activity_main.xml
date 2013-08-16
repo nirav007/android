@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/myTableLayout" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    > 
+    
+    <Button android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Previous"
+        android:id="@+id/btnP"
+         />
+    <Button android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Next"
+        android:id="@+id/btnN"
+         />
+    
+    <ListView android:id="@+id/itemList" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_centerInParent="true"
+			android:layout_margin="10dip"
+			
+			android:divider="#cccccc"
+			android:dividerHeight="1dp"
+			
+			android:cacheColorHint="#00000000"
+			android:fadingEdge="none"
+			android:scrollbars="none"
+			>
+		</ListView>
+</LinearLayout>

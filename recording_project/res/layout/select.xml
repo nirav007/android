@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout android:background="@drawable/blue_button"
+     android:layout_width="fill_parent"  android:layout_marginTop="10dip" android:layout_marginBottom="10dip"
+    android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="0" >
+
+	<TextView  
+       android:text="RECORD VIDEO"
+        android:id="@+id/mybutton" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        style="@style/savestyle"
+         android:padding="10dip" 
+        android:gravity="left"
+         >
+         </TextView>
+	<TextView 
+	android:text="Timer"
+	android:layout_height="wrap_content"
+	android:id="@+id/txtcounter"
+	 
+        android:layout_width="wrap_content"
+        style="@style/savestyle"
+         android:padding="10dip" 
+         android:gravity="right"
+	 />
+	 </LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<FrameLayout android:layout_margin="5dip"
+	android:id="@+id/videoview" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"/>
+
+</LinearLayout>
+</LinearLayout>

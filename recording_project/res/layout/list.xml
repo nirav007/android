@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:background="@color/bgcolor"
+    android:layout_width="fill_parent" android:padding="5dip"
+    android:layout_height="fill_parent"
+    >
+<TextView   android:layout_marginTop="10dip" android:layout_marginBottom="10dip"
+        android:text="    Video List    " 
+        android:id="@+id/txtplay" android:background="@drawable/blue_button"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent"
+        style="@style/savestyle"
+         android:padding="10dip" 
+        
+         >
+         ></TextView>
+<ListView
+	android:id="@android:id/list" android:divider="@color/bgcolor"
+	android:layout_width="fill_parent"  android:dividerHeight="2dip"
+    android:layout_height="wrap_content" 
+	/>
+<TextView
+	android:id="@android:id/empty"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="No Data"
+	/>
+</LinearLayout>

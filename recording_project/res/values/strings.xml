@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Recording_projectActivity!</string>
+    <string name="app_name">Recording_project</string>
+</resources>

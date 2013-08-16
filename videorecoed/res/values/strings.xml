@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">VideoReg</string>
+    <string name="recording">Пишу</string>
+    <string name="viewing">Переглядаю</string>
+    <string name="fileCreateExternalFailed">Не можу створити файл на зовнішньому сховищі</string>
+    <string name="menuSettings">Налаштування</string>
+    <string name="menuAbout">Про</string>
+    <string name="noLimit">Без обмежень</string>
+    <string name="noLimitTip">До заповнення сховища</string>
+    <string name="timeLimit">Обмеження за часом</string>
+    <string name="timeLimitTip">Намагатися зберегти останніх N хвилин</string>
+    <string name="sizeLimit">Обмеження за розміром</string>
+    <string name="sizeLimitTip">Намагається зберегати певну кількість роліків по X Mb</string>
+    <string name="partsPer">частин по</string>
+    <string name="minutes">хвилин</string>
+    <string name="kBytes">кБайт</string>
+    <string name="outputFormat">Формат</string>
+    <string name="outputSize">Розмір</string>
+    <string name="maxDurationReached">Досягнуто максимальної тривалості</string>
+    <string name="errorFileSystemAccess">Помилка доступу до файлової системи</string>
+</resources>

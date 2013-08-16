@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">VideoReg</string>
+    <string name="recording">Recording</string>
+    <string name="viewing">Viewing</string>
+    <string name="fileCreateExternalFailed">Unable to create file on external storage</string>
+    <string name="menuOptions">Options</string>
+    <string name="menuAbout">About</string>    
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, ProjectActivity!</string>
+    <string name="app_name">VideoStopWatch</string>
+    <color name="headerbg">#f23909</color>
+    <color name="btncolor">#ffffff</color>
+    <color name="txtcolor">#00304A</color>
+    <color name="bgcolor">#021A89</color>
+    <color name="centercolor">#F96E57</color>
+</resources>

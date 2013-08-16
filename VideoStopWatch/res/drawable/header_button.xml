@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+        <gradient android:startColor="#ACC369"
+                android:endColor="#ACC369"
+                android:centerColor="@color/headerbg">
+        </gradient>
+            
+                <size android:width="20dip"/>
+            <stroke
+                android:width="1dp"
+                android:color="#000000" />
+            <corners
+                android:radius="0dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+               android:startColor="@color/headerbg"
+                android:endColor="@color/headerbg"
+                android:centerColor="@color/centercolor"
+                android:angle="360" />
+            <stroke
+                android:width="0dp"
+                android:color="#000000" />
+            <corners
+                android:radius="0dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item  >
+        <shape >
+            <gradient
+                 android:startColor="@color/headerbg"
+                android:endColor="@color/headerbg"
+                android:centerColor="@color/centercolor"
+                android:angle="360" />
+            <stroke
+                android:width="0dp"
+                android:color="#000000" />
+            <corners
+                android:radius="0dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>

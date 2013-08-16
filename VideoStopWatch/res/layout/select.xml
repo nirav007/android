@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+    <TextView android:id="@+id/header"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    
+    android:gravity="center" android:padding="15dip"
+         android:background="@drawable/header_button"
+        android:text="Record Video" style="@style/header"
+        
+         />
+    <RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/bgcolor" >
+ 
+    <LinearLayout android:background="@drawable/blue_button" android:id="@+id/mybutton" 
+     android:layout_width="fill_parent"  android:layout_marginTop="5dip" 
+     android:layout_marginBottom="0dip" android:layout_alignParentBottom="true" 
+    android:layout_height="wrap_content" android:orientation="horizontal"
+     android:layout_weight="0" >
+
+	<TextView  
+       android:text="START Recording"
+        android:id="@+id/mybutton1"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        style="@style/savestyle"
+         android:layout_weight="1"
+        android:gravity="left"
+        
+         >
+         </TextView>
+	<TextView 
+	android:text="00:00:00"
+	android:layout_height="wrap_content"
+	android:id="@+id/txtcounter"
+	 
+        android:layout_width="wrap_content"
+        style="@style/savestyle"
+        android:layout_weight="1"
+         android:gravity="right"
+	 />
+	 </LinearLayout>
+<LinearLayout android:layout_above="@+id/mybutton"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<FrameLayout android:layout_margin="5dip"
+	android:id="@+id/videoview" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"/>
+
+</LinearLayout>
+</RelativeLayout>
+</LinearLayout>

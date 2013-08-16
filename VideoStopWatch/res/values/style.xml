@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <style name="space">  
+    <item name="android:paddingLeft">5px</item>
+    <item name="android:paddingRight">5px</item>
+	</style>
+	
+	<style name="btnstyle">  
+    <item name="android:textColor">@color/btncolor</item>
+    <item name="android:layout_margin">5dip</item>
+    <item name="android:textSize">22dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	
+	<style name="style">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="intereststyle">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="captionstyle">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">20dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="commentstyle">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">15dip</item>
+	</style>
+	
+	
+	<style name="savestyle">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">14dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="style1">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="header">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">16dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	</resources>

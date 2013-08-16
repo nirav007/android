@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, New_projectActivity!</string>
+    <string name="app_name"> Hotly</string>
+    <color name="btncolor">#ffffff</color>
+    <color name="selecttab">#f78198</color>
+    <color name="txtcolor">#ffffff</color>
+    <color name="bgcolor">#ffffff</color>
+    <color name="headerbg">#881e2c</color>
+    <color name="settingbg">#e7e7de</color>
+    <color name="settingtxt">#593520</color>
+    <color name="tabcolor">#E7E7DE</color>
+    <color name="more">#69128139</color>
+    <color name="logincolor">#888991</color>
+	 <array name="context_names">  
+    <item>Boston</item>  
+    <item>second</item>  
+     </array>
+</resources>
+

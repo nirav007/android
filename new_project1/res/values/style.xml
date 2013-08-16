@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <style name="space">  
+    <item name="android:paddingLeft">5px</item>
+    <item name="android:paddingRight">5px</item>
+	</style>
+	
+	<style name="btnstyle">  
+    <item name="android:textColor">@color/btncolor</item>
+    <item name="android:layout_margin">5dip</item>
+    <item name="android:textSize">22dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	
+	<style name="style">  
+    <item name="android:textColor">@color/settingtxt</item>
+    <item name="android:textSize">16dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	
+	<style name="style_signup">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">17dip</item>
+    <item name="android:textStyle">bold</item>
+    
+    
+	</style>
+	
+	
+	<style name="style_signup1">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">17dip</item>
+    
+    
+    
+	</style>
+	
+	<style name="style_signup_next">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">14dip</item>
+    
+    
+    
+	</style>
+	
+	<style name="styleb">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">12dip</item>
+    
+	</style>
+	
+	<style name="stylesetting">  
+    <item name="android:textColor">@color/settingtxt</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="stylesetting_1">  
+    <item name="android:textColor">@color/settingtxt</item>
+    <item name="android:textSize">12dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="style_pass">  
+    <item name="android:textColor">@color/settingtxt</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	<style name="intereststyle">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="captionstyle">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">20dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="commentstyle">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">15dip</item>
+	</style>
+	
+	
+	<style name="savestyle">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">14dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="savestyle_interest">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">18dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="loginstyle">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">17dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="styleup">  
+    <item name="android:textColor">#58595b</item>
+    <item name="android:textSize">14dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="style1">  
+    <item name="android:textColor">@color/txtcolor</item>
+    <item name="android:textSize">15dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="header">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">16dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="backdesign">  
+    <item name="android:background">@drawable/field</item>
+    <item name="android:paddingLeft">3dip</item>
+    <item name="android:textColorHint">@color/settingtxt</item> 
+     <item name="android:textSize">17dip</item>
+    
+	</style>
+	
+	<style name="backdesignpass">  
+    <item name="android:background">@drawable/field</item>
+    <item name="android:paddingLeft">3dip</item>
+    <item name="android:textColorHint">@color/settingtxt</item> 
+     <item name="android:textSize">14dip</item>
+    
+	</style>
+	
+	<style name="setting_savestyle">  
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">12dip</item>
+    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="setting_edittext">  
+    <item name="android:background">@drawable/field</item>
+        <item name="android:textStyle">bold</item>
+    <item name="android:textColorHint">@color/settingtxt</item> 
+     <item name="android:textSize">12dip</item>
+    
+	</style>
+	
+	<style name="Theme.Foo" parent="android:style/Theme.Light">
+    <item name="android:windowContentOverlay">@null</item>
+     <item name="android:tabStripLeft">@null</item>
+    <item name="android:tabStripRight">@null</item>
+    <item name="android:tabStripEnabled">false</item>
+    
+</style>
+	</resources>

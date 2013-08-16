@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"  android:background="@drawable/bg"
+  android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<RelativeLayout
+  
+  android:orientation="vertical"
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent">
+  
+
+
+
+
+   <ImageView android:gravity="center" android:padding="2dip"  android:layout_width="wrap_content" android:id="@+id/idback"  android:layout_height="wrap_content" android:layout_marginTop="5dip"   />
+    
+    
+   <ScrollView android:id="@+id/test"
+   android:layout_below="@id/header"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp" android:layout_marginLeft="5dip"
+    android:layout_marginTop="2dip"
+    android:layout_marginRight="5dp" 
+     >
+     
+       
+        <LinearLayout 
+         
+        android:orientation="vertical"  android:layout_marginLeft="5dip"
+        android:layout_height="fill_parent" android:layout_width="fill_parent">
+         
+        
+        <ImageView android:gravity="center" android:layout_gravity="center"
+         android:src="@drawable/graphic" android:padding="2dip" 
+          android:layout_width="wrap_content" android:id="@+id/idback" 
+           android:layout_height="wrap_content" android:layout_marginTop="5dip" 
+          />
+         
+         <View android:layout_height="10dip" android:layout_width="fill_parent" /> 
+           <TextView style="@style/style_signup" android:layout_marginBottom="5dip" 
+         android:layout_height="wrap_content"  android:layout_width="fill_parent" 
+        	android:text=" Welcome Back" android:layout_gravity="center"
+        	android:gravity="center"
+        
+         />
+         
+         <View android:layout_height="20dip" android:layout_width="fill_parent" />
+         
+         <LinearLayout
+			      android:orientation="horizontal"
+			      android:layout_width="fill_parent"
+			      android:layout_height="fill_parent"
+			      android:layout_weight="2">
+			      <TextView
+			          android:text="      E-mail  " 
+			          android:id="@+id/txtuser"
+			          style="@style/style_signup" 
+			          android:gravity="center_horizontal|center_vertical|left"
+			          android:paddingLeft="10dip"
+			          android:layout_width="wrap_content"
+			          android:layout_height="fill_parent"
+			          android:layout_weight="0"/>
+			         
+			     <EditText
+			        
+        android:hint="   " android:id="@+id/edituser"
+         android:gravity="center_horizontal|center_horizontal|left"
+			          android:layout_width="fill_parent"
+			          android:layout_height="wrap_content"
+			          android:layout_weight="0"
+			          style="@style/backdesign"
+			          android:layout_marginRight="5dip"
+			          />
+			      
+			    
+         </LinearLayout>
+        
+        <View android:layout_width="fill_parent" android:layout_height="10dip" />
+         <LinearLayout
+			      android:orientation="horizontal"
+			      android:layout_width="fill_parent"
+			      android:layout_height="fill_parent"
+			      android:layout_weight="2">
+			      
+         <TextView  
+         android:text="Password  "   android:id="@+id/txtlocation" 
+      			 style="@style/style_signup" 
+			          android:gravity="center_horizontal|center_vertical|left"
+			          android:paddingLeft="10dip"
+			          android:layout_width="wrap_content"
+			          android:layout_height="fill_parent"
+			          android:layout_weight="0"
+         ></TextView>
+        
+        <EditText  android:hint=" " android:id="@+id/editlocation" 
+         android:gravity="center_horizontal|center_horizontal|left"
+        android:layout_height="wrap_content" android:layout_width="fill_parent" 
+        android:password="true"
+         android:layout_weight="0"
+         android:layout_marginRight="5dip"
+          style="@style/backdesign"
+         >
+            
+        </EditText>
+         </LinearLayout>
+  <View android:layout_width="fill_parent" android:layout_height="15dip" />
+           
+        <TextView android:autoLink="all" android:text=" LOG-IN  "    
+        android:id="@+id/btnsignin" style="@style/loginstyle" 
+        android:background="@drawable/loginbutton"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_height="wrap_content" android:layout_width="fill_parent"
+        android:gravity="center" android:layout_gravity="center_vertical|center_horizontal"
+       ></TextView>
+    <View android:layout_width="fill_parent" android:layout_height="10dip" />
+   
+   
+     <LinearLayout
+			      android:orientation="horizontal"
+			      android:layout_width="fill_parent"
+			      android:layout_height="fill_parent"
+			      android:layout_weight="2"
+			       android:gravity="center_horizontal|center_vertical"
+			      >
+			      
+         <TextView  
+         android:text="Don't have an account ?  " android:id="@+id/txtlocation" 
+      			  style="@style/styleb"
+			            android:gravity="center_horizontal|center_vertical|left"
+			          android:paddingLeft="10dip"
+			          android:layout_width="wrap_content"
+			          android:layout_height="wrap_content"
+			          android:layout_weight="0"
+         ></TextView>
+        
+        <TextView android:autoLink="all"  
+        android:text=" Sign-up "  
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:id="@+id/btnsignup" android:background="@drawable/signinbutton"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        style="@style/styleup" 
+         
+        android:layout_weight="0"
+        >
+         </TextView>
+       
+         </LinearLayout>
+         
+       
+   
+        
+        
+         </LinearLayout>
+       
+       </ScrollView>
+       
+       </RelativeLayout>
+       
+       </LinearLayout> 
+
+

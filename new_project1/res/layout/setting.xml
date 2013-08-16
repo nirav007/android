@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"  
+  android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<RelativeLayout
+  
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_gravity="center_vertical|center_horizontal"
+  android:layout_height="fill_parent" android:background="@color/bgcolor">
+  
+
+<TextView android:id="@+id/header"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    
+    android:gravity="center" android:padding="15dip"
+        
+        android:text="Settings" style="@style/header" 
+        
+        android:background="@drawable/bgeffect" />
+
+
+  <TextView android:autoLink="all"  android:layout_marginTop="7dip"
+  android:visibility="invisible"
+        android:text=" Profile " 
+        android:id="@+id/btnupdateimg" android:background="@drawable/blue_button"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        style="@style/savestyle" android:gravity="center_vertical"
+         android:padding="10dip" android:layout_marginLeft="5dip"
+        android:layout_alignParentTop="true"
+         android:layout_alignParentLeft="true">
+         </TextView>
+   <ImageView android:gravity="center"  
+   android:layout_width="wrap_content" android:id="@+id/idback" 
+    android:layout_height="wrap_content" 
+     />
+
+    
+    
+   
+   
+  <ScrollView android:id="@+id/test" android:layout_below="@id/header"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp" android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp">
+     
+  <LinearLayout
+  android:layout_marginRight="5dip"
+  android:layout_margin="5dip"
+  android:orientation="vertical"
+   android:paddingTop="10dip" android:layout_width="fill_parent" 
+   android:layout_height="wrap_content" android:weightSum="1">
+       
+       <RelativeLayout android:id="@+id/above"
+       android:layout_gravity="center_horizontal"
+        
+        android:padding="5dip" android:orientation="horizontal" 
+        android:layout_width="fill_parent" android:layout_height="140dip">
+       
+       <ImageView android:src="@drawable/profilepic_empty" 
+        android:layout_height="130dip" android:layout_width="150dip" 
+        android:id="@+id/upload_img" android:padding="5dip"  />
+        
+       <TextView android:layout_width="fill_parent" style="@style/style" 
+       android:layout_height="wrap_content" 
+       android:id="@+id/txt_username" 
+       android:gravity="center_horizontal|left" 
+        android:text="dfsdf"
+       android:layout_centerVertical="true" 
+       android:layout_alignParentRight="true" 
+       android:layout_toRightOf="@+id/upload_img"></TextView>
+       
+       <ImageView android:layout_width="wrap_content" 
+       android:id="@+id/imageView1" android:src="@drawable/cameraicon" 
+       android:layout_height="wrap_content" 
+       android:layout_alignParentBottom="true" 
+       
+       android:layout_alignLeft="@+id/upload_img"></ImageView>
+     
+       </RelativeLayout>
+       
+        <LinearLayout android:id="@+id/above"
+       android:layout_gravity="center_horizontal"
+        
+        android:paddingRight="20dip"
+        android:paddingLeft="20dip"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+         android:orientation="horizontal" 
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+        
+        
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow  android:id="@+id/rowpassword"
+    android:paddingTop="5dip" android:layout_marginBottom="10dip" 
+     >
+      
+        <TextView android:layout_width="wrap_content"  
+       android:text=" Password" style="@style/stylesetting" 
+       android:paddingLeft="30dip"
+       android:gravity="center_vertical|left"
+       android:background="@drawable/pwfield"
+       android:id="@+id/txtfeedname" android:layout_height="wrap_content">
+       </TextView>
+        
+        
+    </TableRow>
+    
+     <TableRow   android:paddingTop="5dip" android:layout_marginBottom="10dip" 
+     android:id="@+id/rowemail" 
+     >
+      
+        <TextView android:layout_width="wrap_content" 
+             android:text=" E-mail" style="@style/stylesetting" 
+       android:background="@drawable/emailfield" android:gravity="center_vertical|left"
+       android:paddingLeft="30dip"
+       android:id="@+id/txtfeedname" android:layout_height="wrap_content">
+       </TextView>
+     
+       
+    </TableRow>
+    
+      <TableRow   android:paddingTop="5dip" android:layout_marginBottom="10dip" android:id="@+id/rowinterest" 
+       >
+       
+        <TextView android:layout_width="wrap_content"  
+       android:text=" Interest Discovery Settings" style="@style/stylesetting" 
+       android:background="@drawable/settingfield"
+        android:paddingLeft="30dip" android:gravity="center_vertical|left"
+       android:id="@+id/txtfeedname" android:layout_height="wrap_content">
+       </TextView>
+     
+    </TableRow>
+    </TableLayout>
+        </LinearLayout>
+        
+ 
+      </LinearLayout>
+ </ScrollView>
+  
+       </RelativeLayout>
+       </LinearLayout> 

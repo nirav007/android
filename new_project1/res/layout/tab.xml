@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+<TabHost 
+    android:id="@android:id/tabhost" android:scrollbars="none" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    <RelativeLayout 
+        android:layout_width="fill_parent" android:background="@android:color/white"
+        android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/tabcontent"
+             android:layout_width="fill_parent" 
+             android:layout_height="fill_parent"
+             android:layout_alignParentTop="true" 
+             android:layout_above="@android:id/tabs" />
+             
+    <TabWidget android:id="@android:id/tabs" android:tabStripEnabled="false"
+             android:layout_width="fill_parent" android:background="@android:color/white"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true" 
+             android:layout_marginBottom="-4dip"
+             
+             >
+      <!--        
+               <LinearLayout android:id="@+id/first_tab"
+                android:orientation="vertical" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:background="@drawable/one1"
+                
+                 >
+                
+                <TextView android:layout_width="wrap_content"
+                android:paddingTop="10dip"
+                    android:layout_height="wrap_content" android:text="You'll" />
+            
+            </LinearLayout>
+            <LinearLayout android:id="@+id/second_tab"
+                android:orientation="vertical" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                
+                android:background="@drawable/two2"
+                 >
+             
+                <TextView android:layout_width="wrap_content"
+                 android:paddingTop="10dip"
+                    android:layout_height="wrap_content" android:text="Spread The" />
+            
+            </LinearLayout>
+             <LinearLayout android:id="@+id/second_tab"
+                android:orientation="vertical" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+				android:background="@drawable/home"
+					>
+              
+               
+            
+            </LinearLayout>
+             <LinearLayout android:id="@+id/second_tab"
+                android:orientation="vertical" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                
+                android:background="@drawable/three3"
+                 >
+              
+                <TextView android:layout_width="wrap_content"
+                 android:paddingTop="10dip"
+                    android:layout_height="wrap_content" android:text="Feedback" />
+                
+            </LinearLayout>
+             <LinearLayout android:id="@+id/second_tab"
+                android:orientation="vertical" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             
+                
+                android:background="@drawable/four4"
+                 >
+               
+                <TextView android:layout_width="wrap_content"
+                 android:paddingTop="10dip"
+                    android:layout_height="wrap_content" android:text="Osi" />
+            
+            </LinearLayout>
+             -->
+             </TabWidget>
+    </RelativeLayout>
+</TabHost>
+
+
+</LinearLayout>

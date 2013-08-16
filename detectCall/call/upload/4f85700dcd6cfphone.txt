@@ -1,0 +1,17 @@
+B B ID=1 LOOKUP_KEY=0
+C C ID=2 LOOKUP_KEY=1
+   phone=453 type=1 (home) 
+   email=nirav@gmail.com type=1 (home) 
+   street=Rajkot
+   city=Yagnik Road
+   state/region=India
+D D ID=3 LOOKUP_KEY=1
+   phone=12234 type=1 (home) 
+E E ID=4 LOOKUP_KEY=1
+   phone=4321 type=1 (home) 
+T T ID=5 LOOKUP_KEY=1
+   phone=321 type=1 (home) 
+Gg Gg ID=6 LOOKUP_KEY=1
+   phone=65 type=1 (home) 
+P P ID=7 LOOKUP_KEY=0
+   email=pp@gmail.com type=1 (home) 

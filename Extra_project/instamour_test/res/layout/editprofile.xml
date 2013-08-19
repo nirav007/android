@@ -1,0 +1,423 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_fill" >
+
+    <RelativeLayout
+        android:id="@+id/topaction1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/topnavbar"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+        <Button
+            android:layout_width="65dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/edit_save"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/txtheadtext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="Edit Profile"
+            android:textColor="#000000"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_editsave"
+            android:layout_width="65dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/edit_save" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/topaction1" >
+
+        <LinearLayout
+            android:id="@+id/signup_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="20dip" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1" >
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        style="@style/editprofiletxt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Username" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_dropdown"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip"
+                        android:weightSum="2" >
+
+                        <EditText
+                            android:id="@+id/txtUsername"
+                            style="@style/editprofile"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.7"
+                            android:background="@android:color/transparent"
+                            android:gravity="left|center_vertical"
+                            android:text="Username" />
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/edit_erase" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        style="@style/editprofiletxt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Indentity" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_dropdown"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtIndentity"
+                            style="@style/editprofile"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.7"
+                            android:gravity="left|center_vertical"
+                            android:text="Techie" />
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/edit_arrow" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        style="@style/editprofiletxt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Height" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_dropdown"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip"
+                        android:weightSum="2" >
+
+                        <EditText
+                            android:id="@+id/txtHeight"
+                            style="@style/editprofile"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.7"
+                            android:background="@android:color/transparent"
+                            android:gravity="left|center_vertical"
+                            android:text="Techie" />
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/edit_arrow" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        style="@style/editprofiletxt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Body Type" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_dropdown"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtBodytype"
+                            style="@style/editprofile"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.7"
+                            android:gravity="left|center_vertical"
+                            android:text="Techie" />
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/edit_arrow" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        style="@style/editprofiletxt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Looking for" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_dropdown"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtLookingfor"
+                            style="@style/editprofile"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.7"
+                            android:gravity="left|center_vertical"
+                            android:text="Techie" />
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/edit_arrow" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        style="@style/editprofiletxt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Ethnicity" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_dropdown"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtEthnicity"
+                            style="@style/editprofile"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.7"
+                            android:gravity="left|center_vertical"
+                            android:text="Techie" />
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/edit_arrow" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                    <TextView
+                        style="@style/editprofiletxt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="left|center_vertical"
+                        android:text="Smoker" />
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_dropdown"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="5dip"
+                        android:paddingRight="5dip"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtSmoker"
+                            style="@style/editprofile"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.7"
+                            android:gravity="left|center_vertical"
+                            android:text="No" />
+
+                        <ImageView
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".3"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/edit_arrow" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:background="@drawable/roundcorner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical" >
+
+                <EditText
+                    style="@style/editprofile"
+                    android:id="@+id/txtAboutme"
+                    android:paddingTop="10dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                      android:background="@android:color/transparent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left|top"
+                    android:text="About Me :" />
+
+                <TextView
+                    style="@style/signup_txt"
+                       android:background="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:paddingRight="10dip"
+                    android:text="250 char left" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</RelativeLayout>

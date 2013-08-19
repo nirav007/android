@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+     <style name="txtStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+      <style name="txtLevel">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15dip</item>
+    </style>
+</resources>

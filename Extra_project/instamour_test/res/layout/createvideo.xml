@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_fill" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <TextView
+                style="@style/signup_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Each video can be up to 8 seconds long so make them count! Try to show each aspect of your life. And try to include a full body shot so your Amours can really see you :)" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:weightSum="0" >
+
+                <LinearLayout
+                    android:id="@+id/video_intro"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/img_videointro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:background="@drawable/videowithout_"
+                            android:scaleType="centerInside" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/txt_videointro"
+                        style="@style/video_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videotext_"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingBottom="15dip"
+                        android:text="Intro" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/video_pet"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_videopet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videowithout_"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        style="@style/video_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videotext_"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingBottom="15dip"
+                        android:text="Pet / Funny" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:weightSum="0" >
+
+                <LinearLayout
+                    android:id="@+id/video_place"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_videoplace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videowithout_"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        style="@style/video_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videotext_"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingBottom="15dip"
+                        android:text="Fav Place" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/video_pick"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/img_videopick"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videowithout_"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        style="@style/video_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/videotext_"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingBottom="15dip"
+                        android:text="Your Pick" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:weightSum="0" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/create_button" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/skip_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

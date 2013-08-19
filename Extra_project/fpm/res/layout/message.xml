@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" 
+    android:background="@android:color/white"
+    >
+
+   <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@drawable/head_click"
+        android:orientation="vertical" >
+
+     
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="received msg"
+            android:textColor="#696969"
+            android:id="@+id/txtMessage"
+            android:textSize="20dip" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dip" />
+        
+        
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDate"
+            android:text="date date"
+            android:textColor="#696969" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip" />
+        
+       
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dip"
+        android:background="@color/view" />
+    
+    
+    
+   
+
+   
+
+</LinearLayout>

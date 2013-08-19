@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_fill" >
+
+    <RelativeLayout
+        android:id="@+id/topaction"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/topnavbar"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+        <Button
+            android:id="@+id/sample_button"
+            style="@android:style/Widget.Button.Small"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/leftnavmenuicon_" />
+
+        <TextView
+            android:id="@+id/txtheadtext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="Help  Support"
+            android:textColor="#000000"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imguserprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topaction"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/roundcorner"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/imguserchangeprofile"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:src="@drawable/json" />
+
+        <TextView
+            android:id="@+id/txtchangeimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_below="@id/imguserchangeprofile"
+            android:layout_centerInParent="true"
+            android:layout_gravity="bottom"
+            android:text="Change Photo"
+            android:textColor="@color/menutextcolor"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutbottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dip"
+        android:background="@drawable/roundcorner"
+        android:orientation="horizontal"
+        android:paddingBottom="15dip"
+        android:paddingTop="15dip"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/txthelp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight=".8"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="Upgrade Account"
+            android:textColor="@color/menutextcolor"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgarrow"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight=".2"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_selected" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/userList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/layoutbottom"
+        android:layout_below="@id/imguserprofile"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/roundcorner"
+        android:divider="#f2e4e4"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" >
+    </ListView>
+
+</RelativeLayout>

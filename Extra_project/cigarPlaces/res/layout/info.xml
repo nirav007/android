@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/headerbg"
+        android:orientation="horizontal"
+        android:padding="15dip"
+        android:weightSum="3"
+        android:id="@+id/layoutHeader"
+         >
+         <ImageView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/ic_action_search"
+             android:layout_alignParentLeft="true"
+             
+             />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Info"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        
+         />
+
+    <ImageView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/ic_action_search"
+             android:layout_alignParentRight="true"
+             
+             />
+    
+    
+    </RelativeLayout>
+    
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dip"
+         >
+    
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="sdasdasdasdasdadasdssefererewrwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerwerdfsdfdsfsdfewrwerwerwesdfsdf"
+        android:padding="10dip"
+        android:textSize="15dip"
+        
+        android:textColor="#000000"
+        android:background="@drawable/border"
+         />
+    </LinearLayout>
+</LinearLayout>

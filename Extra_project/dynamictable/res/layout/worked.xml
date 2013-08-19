@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReportListActivity" >
+
+   <!--    <TableLayout
+                    
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TableRow>
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                           android:text="S.No."
+                           android:background="@android:color/darker_gray"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Test name"
+                            android:background="@android:color/darker_gray"
+                             />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Date"
+                            android:background="@android:color/darker_gray" 
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="R.O"
+                            android:background="@android:color/darker_gray"
+                             />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:background="@android:color/darker_gray"
+                            android:text="W.O" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="L.O" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/darker_gray"
+                            android:padding="5dip"
+                            android:text="Max." />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:background="@android:color/darker_gray"
+                            android:text="T.M." />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:background="@android:color/darker_gray"
+                            android:text="Rank" />
+                    </TableRow>
+                </TableLayout>
+                
+                 -->
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+             >
+
+            <TableLayout
+                    android:layout_weight="1"
+                    android:id="@+id/report_table1"  android:layout_height="wrap_content" android:layout_width="0dip">
+				
+              <TableRow >
+                 <!--      <TextView android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="S.No."
+                        android:padding="5dip"
+                         android:background="@android:color/darker_gray"
+                         />
+                    
+                   --> 
+                   <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                           android:text="S.No."
+                           android:background="@android:color/darker_gray"
+                            /> 
+                    
+                </TableRow>
+                
+            </TableLayout>
+            
+            <HorizontalScrollView  android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+              <TableLayout
+                    android:layout_weight="4"
+                    android:id="@+id/report_table"  android:layout_height="wrap_content" android:layout_width="0dip">
+                   
+                  <TableRow >
+                       <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Test name"
+                            android:background="@android:color/darker_gray"
+                             />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="Date"
+                            android:background="@android:color/darker_gray" 
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:text="R.O"
+                            android:background="@android:color/darker_gray"
+                             />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:background="@android:color/darker_gray"
+                            android:text="W.O" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                             android:background="@android:color/darker_gray"
+                            android:text="L.O" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/darker_gray"
+                            android:padding="5dip"
+                            android:text="Max." />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:background="@android:color/darker_gray"
+                            android:text="T.M." />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:background="@android:color/darker_gray"
+                            android:text="Rank" />
+                      
+                  </TableRow>
+
+            </TableLayout>
+            </HorizontalScrollView>
+            
+
+        </LinearLayout>
+        
+
+    </ScrollView>
+
+</LinearLayout>

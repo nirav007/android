@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dip"
+    android:background="@drawable/clickbtn"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dip"
+    android:weightSum="5" >
+
+    <!-- Inflate -->
+
+    <TextView
+        android:id="@+id/txt_Name"
+        style="@style/txtStyle"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="this is test" />
+
+    <TextView
+        android:id="@+id/txt_Level"
+        style="@style/txtLevel"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="this is test" />
+
+    <ImageView
+        android:id="@+id/img_Wifi"
+        android:layout_width="0dip"
+        android:layout_height="30dip"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:background="@drawable/wifi" />
+
+</LinearLayout>

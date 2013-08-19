@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backColor"
+     >
+
+    
+     <TextView
+            android:id="@+id/txtExit"
+            style="@style/txtStyle"
+            
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="wrap_content"
+            
+            
+            android:background="@drawable/clickbtn"
+            android:padding="10dip"
+            android:layout_alignParentBottom="true"
+            android:text="  Exit  " />
+     
+      <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:padding="5dip"
+        android:background="@drawable/hackbg"
+        android:layout_margin="5dip"
+        android:layout_above="@+id/txtExit"
+        >
+        
+        
+          <ScrollView  android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+        
+              
+        
+    <TextView  android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtMain"
+        android:textColor="#278313"
+        android:text=""
+        android:padding="15dip"
+        android:textSize="25dip"
+        />
+    </ScrollView>
+    
+          <TextView  android:layout_height="wrap_content"
+              
+              android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtMain"
+        android:textColor="#278313"
+        android:text=""
+        android:padding="15dip"
+        android:textSize="25dip"
+        />
+    
+    </LinearLayout>
+
+</RelativeLayout>

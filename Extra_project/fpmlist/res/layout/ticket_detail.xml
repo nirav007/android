@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="5dip"
+    tools:context=".MainActivity" >
+    
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical" >
+        
+        
+    
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@drawable/head_click"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/txtTicketNo"
+                android:text="Ticket # T00025"
+                android:textColor="@color/view"
+                android:textSize="20dip" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Alert"
+                android:id="@+id/txtAlert"
+                android:textColor="#696969"
+                android:textSize="15dip"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wallmart Store # 1234"
+            android:id="@+id/txtStore"
+            android:textColor="@color/view" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAddress"
+            android:text="P.O. Box 373, 128 Magna. Road 7272 Nunc Road"
+            android:textColor="#696969" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need to clean this property urgently"
+            android:textColor="#696969"
+            android:id="@+id/txtTask"
+            android:textSize="20dip" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dip" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technitian Notes"
+        android:id="@+id/txtNote"
+        android:textColor="@color/view" />
+
+    <EditText
+        
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="@drawable/roundcorner"
+        android:gravity="left|top"
+        android:hint="Write Notes.."
+        android:id="@+id/txtNotedetail"
+        android:padding="5dip"
+        android:textColor="#696969" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" >
+
+        <TextView
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn_style"
+            android:gravity="right"
+            android:padding="10dip"
+            android:text="  Submit  "
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

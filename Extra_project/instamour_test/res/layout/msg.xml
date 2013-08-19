@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="90dip"
+    android:paddingTop="10dip"
+    android:paddingBottom="5dip"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:weightSum="2" 
+    android:id="@+id/headerrow"
+    >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight=".6"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/userprofilepic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/smiley_heart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="1.2"
+        android:orientation="vertical"
+        android:weightSum="2"
+         >
+
+        <TextView
+            android:id="@+id/txtusername"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".5"
+            android:text="username"
+            
+            android:textColor="@color/menutextcolor"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+        
+         <TextView
+            android:id="@+id/txtmsg"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:text="She puched your heart, check her out now!"
+            android:paddingTop="3dip"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold"
+            android:textSize="13dip"
+             />
+         
+         <TextView
+            android:id="@+id/txtlastonline"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".5"
+            android:text="Today"
+            android:paddingTop="3dip"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold"
+            android:textSize="13dip"
+             />
+
+      
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_weight=".2"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/userprofilepic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_pink"></ImageView>
+    </LinearLayout>
+
+</LinearLayout>

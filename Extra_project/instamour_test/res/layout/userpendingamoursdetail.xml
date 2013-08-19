@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/topaction"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+        <Button
+           
+             android:id="@+id/btn_videorowback"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/txtusername"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="username"
+            android:textColor="#000000"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/topaction"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/userList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:divider="@android:color/white"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:fillViewport="true"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false" >
+        </ListView>
+    </LinearLayout>
+    
+</RelativeLayout>

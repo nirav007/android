@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dip"
+     >
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="wifiName"
+        android:id="@+id/ctlayout_main"
+        style="@style/txtStyle"
+        android:padding="10dip"
+        />
+    
+    <View android:layout_width="fill_parent" android:layout_height="1dip" android:background="#4A4d4a"></View>"
+     <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="It seems we can heck this network...\nWhat do you want to do?"
+        android:id="@+id/ctlayout_msg"
+         style="@style/txtCustome"
+         android:paddingTop="15dip"
+         android:paddingBottom="15dip"
+         android:paddingLeft="10dip"
+         android:paddingRight="10dip"
+        />
+     <View android:layout_width="fill_parent" android:layout_height="1dip" android:background="#4A4d4a"></View>
+     
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="2"
+    
+    >
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_margin="10dip"
+        android:id="@+id/ctlayout_hack"
+        android:background="@drawable/hackit"
+        />
+     <View android:layout_width="1dip" android:layout_height="match_parent" android:background="#4A4d4a"></View>
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:text=""
+        android:layout_margin="10dip"
+        android:id="@+id/ctlayout_cancel"
+        android:background="@drawable/cancel"
+        />
+         
+</LinearLayout>
+</LinearLayout>

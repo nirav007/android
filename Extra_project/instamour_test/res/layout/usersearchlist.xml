@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+      <LinearLayout 
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1"
+   
+   >
+ 
+  
+    <TextView
+        
+        android:id="@+id/txthelp"
+        android:layout_weight=".5"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="left|center_vertical"
+        android:text="Ticket"
+        android:textColor="@color/menutextcolor"
+        android:textSize="20dip"
+        android:textStyle="bold"
+         android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+         />
+    <TextView   
+      android:id="@+id/txtusersearch"
+      	android:text="Female"
+      	android:textSize="15dip"
+        android:layout_weight=".5"
+        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        
+        android:textColor="#201F1F"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+         android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        />
+   
+
+</LinearLayout>
+        
+
+</LinearLayout>

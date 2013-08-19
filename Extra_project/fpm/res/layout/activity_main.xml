@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/heading_style"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dip"
+        
+         >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dip"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/txtFPM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="FPM Mobile"
+                android:textColor="@android:color/white"
+                android:textStyle="italic" />
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dip"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/roundcorner"
+            android:hint="Your Email..."
+            android:saveEnabled="true"
+            android:padding="5dip"
+            android:textColor="#696969"
+            android:textStyle="italic"
+           android:imeOptions="actionNext"
+             />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dip" >
+        </View>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/roundcorner"
+            android:hint="Password..."
+            android:inputType="textPassword"
+            android:saveEnabled="true"
+            android:imeOptions="actionDone"
+            android:padding="5dip"
+            android:textColor="#696969"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dip" >
+        </View>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+	android:layout_margin="5dip"
+>
+
+            <TextView
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                
+                android:background="@drawable/btn_style"
+                android:gravity="right"
+                android:padding="10dip"
+                android:text="  Login  "
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+        
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

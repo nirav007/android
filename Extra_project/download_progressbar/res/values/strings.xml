@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">download_progressbar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+     <string name="Replay_prompt">Replay</string>
+<string-array name="Replay_arrays">
+    <item>Timer: Off</item>
+    <item>Repeat 4 time </item>
+    <item>Repeat 5 times</item>
+    <item>Repeat 6 times</item>
+    <item>Repeat 7 times</item>
+    <item>Repeat 8 times</item>        
+</string-array>
+
+</resources>

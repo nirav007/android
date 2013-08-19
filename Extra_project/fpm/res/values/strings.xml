@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FPM Mobile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <color name="view">#ED9118</color>
+    <color name="tabcolor">#ED9118</color>
+    <color name="selecttab">#E09118</color>
+    <color name="tabclick">#FFEFDF</color>
+    <color name="heading">#ED9118</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#008000</color>
+    <color name="defaulttextcolor">#BDBDBD</color>
+    
+</resources>

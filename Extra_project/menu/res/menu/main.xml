@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_up"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="Up"/>
+    <item
+        android:id="@+id/action_down"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Down"/>
+    <item
+        android:id="@+id/action_other"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_launcher"
+        android:title="Other"/>
+
+</menu>

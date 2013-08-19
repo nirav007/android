@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item >
+        <shape>
+            <gradient
+               android:startColor= "#14A804"
+               android:endColor="#14AB4B"
+               
+                 />
+            <!-- 
+            <color name="dark_grey">#4B4B4B</color>
+	<color name="green">#14A804</color>
+	<color name="dark_green">#118c03</color>
+             -->
+            <stroke
+                android:width="0dp"
+                android:color="#FFD354" />
+            <corners
+                android:radius="4dp" />
+            <padding
+                android:left="1dp"
+                android:top="1dp"
+                android:right="1dp"
+                android:bottom="1dp" />
+        </shape>
+    </item>
+    
+</selector>

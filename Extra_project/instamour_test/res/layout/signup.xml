@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_fill" >
+
+    <RelativeLayout
+        android:id="@+id/signup_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:background="@drawable/topnavbar"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:orientation="horizontal"
+                android:weightSum="5" >
+
+                <ImageView
+                    android:id="@+id/imgback"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/back" />
+
+                <TextView
+                    style="@style/signup_txt"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="3"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:text="Sign Up"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_signupgo"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/go" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/signup_top" >
+
+        <LinearLayout
+            android:id="@+id/signup_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/yellowemailwords" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1" >
+
+                <TableRow
+                    android:background="@drawable/roundrect"
+                    android:orientation="horizontal"
+                    android:padding="5dip"
+                    android:weightSum="5" >
+
+                    <ImageView
+                        android:id="@+id/img_signupimgdisplay"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="1"
+                        android:src="@drawable/profilephoto" />
+
+                    <TextView
+                        style="@style/signup_txt"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2.8"
+                        android:background="#00000000"
+                        android:text="Profile Photo" />
+
+                    <ImageView
+                        android:id="@+id/img_signupimgselect"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_weight="1.2"
+                        android:src="@drawable/choosephoto" />
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dip" >
+            </View>
+
+            <EditText
+                style="@style/signup_txt"
+                android:id="@+id/edt_signupusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Username" />
+
+            <EditText
+                style="@style/signup_txt"
+                android:id="@+id/edt_signupemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Email Address" />
+
+            <EditText
+                style="@style/signup_txt"
+                android:id="@+id/edt_signuppassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Password" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/couplesilhoutte"
+                android:scaleType="fitXY" >
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

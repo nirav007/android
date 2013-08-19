@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:orientation="vertical"
+    android:weightSum="6" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:src="@drawable/login_logo" />
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageView
+           
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:scaleType="fitXY"
+            android:src="@drawable/promise_arrow_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <LinearLayout
+           
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="1.5" >
+
+            <ImageView
+                
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:scaleType="fitStart"
+                android:src="@drawable/promise_arrow_seprate" />
+
+            <ImageView
+                android:id="@+id/btn_fbsignup"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|bottom"
+                android:layout_weight="1.2"
+                android:scaleType="fitStart"
+                android:src="@drawable/login_fbsignup" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1.5"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/login_emailsignup"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/login_emailsignup" />
+
+        <ImageView
+            android:id="@+id/login_signin"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/login_login" />
+    </LinearLayout>
+
+</LinearLayout>

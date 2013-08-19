@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner_content"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <!--  <RelativeLayout
+        android:id="@+id/topaction"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#ffffff"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+        <Button
+            android:id="@+id/sample_button"
+            style="@android:style/Widget.Button.Small"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/leftnavmenuicon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/togglebackground"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/btnuserview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:src="@drawable/pictureviewnon_selected" />
+
+            <ImageView
+                android:id="@+id/btnuservideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:src="@drawable/videoview_nonselected" />
+        </LinearLayout>
+    </RelativeLayout> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/topaction"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/userList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:divider="@android:color/white"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:fillViewport="true"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

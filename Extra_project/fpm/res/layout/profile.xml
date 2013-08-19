@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:paddingLeft="5dip"
+            android:weightSum="1"          
+            android:orientation="vertical"
+             >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtVendorname1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="@color/view" />
+
+                <TextView
+                    android:id="@+id/txtVendorname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="P.O. Box 373, 128 Magna. Road 7272 Nunc Road"
+                    android:textColor="#696969" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dip" >
+                </View>
+
+                <TextView
+                    android:id="@+id/txtAddress2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textColor="@color/view" />
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="P.O. Box 373, 128 Magna. Road 7272 Nunc Road"
+                    android:textColor="#696969" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dip" >
+                </View>
+
+                <TextView
+                    android:id="@+id/txtEmail1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comunication Detail"
+                    android:textColor="@color/view" />
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="P.O. Box 373, 128 Magna. Road 7272 Nunc Road"
+                    android:textColor="#696969" />
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="P.O. Box 373, 128 Magna. Road 7272 Nunc Road"
+                    android:textColor="#696969" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dip" >
+                </View>
+            </LinearLayout>
+            
+         <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/txtvca"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+					android:layout_gravity="left"
+                    android:text="VCA"
+                    android:textColor="@color/view" />
+
+                <TextView
+                    android:id="@+id/txtvcacustname"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="Customer"
+                    android:textColor="@color/view" />
+
+                <TextView
+                    android:id="@+id/txtvcaproperty"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Properties"
+                    android:layout_gravity="right"
+                    android:textColor="@color/view" />
+            </LinearLayout>
+            
+          
+
+       
+    
+
+        </LinearLayout>
+    </ScrollView>
+
+     <ListView
+            android:layout_marginTop="10dip"
+              android:id="@+id/listvca"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+           android:dividerHeight="1dip"
+           android:divider="@color/view"
+          
+          android:footerDividersEnabled="false"
+          android:headerDividersEnabled="false"
+             
+             >
+        </ListView>
+</LinearLayout>

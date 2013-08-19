@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <!-- Twitter Login Button -->
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="3"
+    >
+    <Button android:id="@+id/btnCancel"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        />
+    
+    <!-- user name label -->
+    <TextView 
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Tweet"
+        />
+
+    <!-- label update status -->
+    <Button android:id="@+id/btnTwitter"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Tweet"
+        />
+    
+    </LinearLayout>
+    <!-- Tweet EditText -->
+    <EditText android:id="@+id/txtUpdateStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="300dip"
+        android:layout_margin="10dip"
+        />
+    
+ 
+
+</LinearLayout>

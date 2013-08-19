@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/headerbg"
+        android:orientation="horizontal"
+        android:padding="15dip"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/layoutHeader"
+         >
+         <ImageView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/ic_action_search"
+             />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="cigar places"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        
+         />
+    
+    
+    </LinearLayout>
+    <com.google.android.maps.MapView
+        android:layout_below="@+id/layoutHeader"
+				android:id="@+id/mapview" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:apiKey="0dv9akiSW0I8Vvu5Ht_ScUSAEA6tngHm7Sta1ZA"
+				android:clickable="true" android:enabled="true" />
+
+</RelativeLayout>

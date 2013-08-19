@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dip"
+     >
+  
+    <!--  
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Hacked!"
+        android:id="@+id/ctlayout_main"
+        style="@style/txtStyle"
+        android:padding="10dip"
+        />
+    
+    <View android:layout_width="fill_parent" android:layout_height="1dip" android:background="#4A4d4a"></View>"
+    -->
+     <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Do you want to Hack It?"
+        android:id="@+id/ctlayout_msg"
+         style="@style/txtCustome"
+         android:textColor="#278313"
+         android:paddingTop="15dip"
+         android:paddingBottom="15dip"
+         android:paddingLeft="10dip"
+         android:paddingRight="10dip"
+        />
+     <View android:layout_width="fill_parent" android:layout_height="1dip" android:background="#4A4d4a"></View>
+     
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:weightSum="2"
+    android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+    >
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="2"
+        android:layout_margin="10dip"
+        android:id="@+id/ctlayout_hack"
+        
+        android:background="@drawable/connecttothis"
+        />
+    
+    
+         
+</LinearLayout>
+</LinearLayout>

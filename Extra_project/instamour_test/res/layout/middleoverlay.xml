@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/middel_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:background="@drawable/topnavbar"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:orientation="horizontal"
+                android:weightSum="5" >
+
+                <ImageView
+                    android:id="@+id/imgback"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:src="@drawable/topnavlogo_img" />
+
+                <ImageView
+                    android:id="@+id/img_signinlogin"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/m_signinbutton" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/middel_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/blue_bottom"
+        android:paddingLeft="5dip"
+        android:layout_marginTop="-5dip"
+        android:paddingRight="5dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/m_signup"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:src="@drawable/m_signup" />
+
+            <ImageView
+                android:id="@+id/m_browseup"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:src="@drawable/m_browseapp" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/middel_middel"
+        android:layout_above="@id/middel_bottom"
+        android:layout_below="@id/middel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+         android:background="@android:color/white"
+        
+         >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:background="@android:color/white"
+            >
+
+            
+            <ImageView
+                android:id="@+id/img_middle1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                
+                android:scaleType="fitXY"
+                android:src="@drawable/middleoverlay_1" />
+            
+             
+            
+             <ImageView
+                 android:id="@+id/m_textbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_gravity="center_vertical|bottom"
+                android:src="@drawable/m_textbox1" />
+
+            
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

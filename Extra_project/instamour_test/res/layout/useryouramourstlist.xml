@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="90dip"
+    android:paddingTop="10dip"
+    android:paddingBottom="5dip"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:weightSum="2" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight=".6"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/userprofilepic"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/json" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="1.4"
+        android:orientation="vertical"
+        android:weightSum="2"
+         >
+
+        <TextView
+            android:id="@+id/txtusername"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight=".5"
+            android:text="username"
+            
+            android:textColor="@color/menutextcolor"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5"
+            android:paddingTop="5dip"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_gravity="left|center_vertical"
+                android:padding="10dip"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                
+                    android:scaleType="fitStart"
+                android:src="@drawable/chatenabled" />
+            
+            
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:padding="10dip"
+                android:scaleType="fitStart"
+                android:src="@drawable/videochatenabled" />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="1"
+                android:padding="10dip"
+                android:layout_gravity="right|center_vertical"
+                  android:scaleType="fitStart"
+                android:src="@drawable/messagesenabled" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dip"
+        android:background="#F0E0D1" >
+
+     
+          <VideoView 
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+       android:id="@+id/uservideoview"
+        />
+        
+        <ImageView
+            android:id="@+id/uservideopic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/useruser" />
+
+        <ImageView
+            android:id="@+id/videoplaybtn"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_gravity="top|left"
+            android:src="@drawable/videoplaybutton" />
+        
+       
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/iconbox_female"
+        android:orientation="horizontal"
+        android:weightSum="6" >
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/gifticon_female" />
+
+        <ImageView
+            android:id="@+id/img_femalesendreq"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/hearticon_female" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="DaniGirl"
+            android:textColor="#740404"
+            android:id="@+id/video_txtuser"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/xicon_female" />
+
+        <ImageView
+            android:id="@+id/img_flag"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/flagicon_female" />
+    </LinearLayout>
+    
+     <TextView
+        android:id="@+id/txtdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="5.6/All Business"
+        android:textColor="#919191" />
+
+    <TextView
+        android:id="@+id/txtaboutme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="About me:"
+        android:textColor="#740404"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtaboutme"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="I am fun girl who likes to laugh. I love man who can cook"
+        android:textColor="#919191" />
+    
+    <View android:layout_width="fill_parent" android:layout_height="15dip" ></View>
+
+</LinearLayout>

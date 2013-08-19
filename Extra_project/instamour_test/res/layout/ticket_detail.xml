@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal"
+    android:weightSum="5.5"
+   
+    tools:context=".twitter" >
+
+    <ImageView   
+          
+        android:id="@+id/imgicon"
+        android:layout_weight="1"
+        android:layout_height="50dip"
+        android:layout_width="0dip"
+        android:src="@drawable/accountsettings_selected"
+        android:layout_gravity="left"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        />
+    <TextView
+        
+        android:id="@+id/txt"
+        android:layout_weight="3"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="left|center_vertical"
+        android:text="Ticket # T00025"
+        android:textColor="@android:color/white"
+        android:textSize="20dip"
+        android:textStyle="bold"
+         android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+         />
+    
+    <ImageView   
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:id="@+id/imgarrow"
+        
+        android:layout_gravity="right"
+         android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white"
+    >
+
+   
+    
+    <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:paddingLeft="5dip"
+                android:paddingTop="-5dip"
+                android:paddingRight="5dip"
+                 >
+
+                <TextView
+                    android:id="@+id/txtvca"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+					android:layout_gravity="left"
+                    android:text="VCA"
+                    android:textColor="#696969" />
+
+                <TextView
+                    android:id="@+id/txtvcacustname"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="Customer"
+                    android:textColor="#696969" />
+
+                <TextView
+                    android:id="@+id/txtvcaproperty"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Properties"
+                    android:layout_gravity="right"
+                    android:textColor="#696969"/>
+            </LinearLayout>
+   
+</LinearLayout>

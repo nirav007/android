@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="txtStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+     <style name="headStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">25dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+      <style name="txtLevel">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15dip</item>
+    </style>
+</resources>
